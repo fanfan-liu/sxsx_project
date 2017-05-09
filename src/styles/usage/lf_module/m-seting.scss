@@ -1,0 +1,48 @@
+ .m-login{
+    height:100%;
+    width:100%;
+    background:#f8f8f8;
+    .yo-header {
+        width:100%;
+        height:.44rem;
+        line-height:.44rem;
+        background-color: #fff;
+        border-bottom:1px solid #ccc;
+        color: #000;
+        background: #fff;
+        text-align:center;
+        font-size:.12rem;
+        color:#4f4f4f;
+        border-bottom:-.0.9rem solid #ccc;
+    .regret{
+        float:left;
+        position:absolute;
+        left:.12rem;
+        color:#b6b6b6;}   
+    }
+    section{
+        width:100%;
+        height:auto;
+        margin-top:.12rem;
+        .item{
+            width:100%;
+            height:.48rem;
+            line-height:.48rem;
+            background:#fff;
+            border-bottom:0.01rem solid #ccc;
+            .cys-p-left{
+                float:left;
+                margin-left:.2rem;}
+            .cys-p-right{
+                 float:right;
+                 margin-right:.2rem;}
+        }
+        .cys-item-center{
+            margin-top:.12rem;}
+        .cys-item-last{
+            position:absolute;
+            bottom:0;
+            text-align:center;
+            color:red;}
+    }
+}

@@ -1,0 +1,138 @@
+{
+  "hasError": false,
+  "errorCode": "200",
+  "statusCode": "200",
+  "errorMessage": "",
+  "data": {
+    "carousel": [
+      {
+        "title": "菌菇棒",
+        "picUrl": "http://img.i-kitchen.cn/upload/ca168bea-0322-4af9-b9e3-4d5f56379553.jpg",
+        "enabled": 1,
+        "sortIndex": 1,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 2,
+            "target": "0275f9bb-389a-4e6a-9d15-12dbe99a3618"
+          }
+        }
+      },
+      {
+        "title": "辣火牛肚",
+        "picUrl": "http://img.i-kitchen.cn/upload/26ee01e4-986d-4de2-b4e3-169553d86361.jpg",
+        "enabled": 1,
+        "sortIndex": 1,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 1,
+            "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=110"
+          }
+        }
+      },
+      {
+        "title": "五四青年节",
+        "picUrl": "http://img.i-kitchen.cn/upload/c0ebf7db-0aef-4c09-8a8c-678ab34ed00e.jpg",
+        "enabled": 1,
+        "sortIndex": 2,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 1,
+            "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=109"
+          }
+        }
+      },
+      {
+        "title": "全网最低",
+        "picUrl": "http://img.i-kitchen.cn/upload/e0ee63ba-eb1c-46b1-8194-62938da242f7.jpg",
+        "enabled": 1,
+        "sortIndex": 2,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 2,
+            "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPage.html?activityId=20"
+          }
+        }
+      },
+      {
+        "title": "银联",
+        "picUrl": "http://img.i-kitchen.cn/upload/da683695-407b-4380-9222-3e5f67c57370.jpg",
+        "enabled": 1,
+        "sortIndex": 5,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 1,
+            "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPagew.html?activityId=90"
+          }
+        }
+      },
+      {
+        "title": "农行",
+        "picUrl": "http://img.i-kitchen.cn/upload/fbc6010f-03b9-4e53-b496-0a521add24eb.jpg",
+        "enabled": 1,
+        "sortIndex": 6,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 1,
+            "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPagew.html?activityId=103"
+          }
+        }
+      },
+      {
+        "title": "禁渔活动",
+        "picUrl": "http://img.i-kitchen.cn/upload/dd3d6cf8-ad52-4bff-a94d-b006d39b824d.jpg",
+        "enabled": 1,
+        "sortIndex": 7,
+        "action": {
+          "type": 2,
+          "data": {
+            "type": 1,
+            "target": "http://wmall.wochu.cn/h5/activityTemplate/html/activityPagew.html?activityId=123"
+          }
+        }
+      }
+    ],
+    "recommendedContent": [
+      {
+        "items": [
+          {
+            "imgUrl": "http://img.i-kitchen.cn/upload/179f08dd-09d1-49fb-8354-879ab7943adb.jpg",
+            "type": "3",
+            "source": "特惠商品大回馈",
+            "pos": 1,
+            "$$hashKey": "object:8052"
+          },
+          {
+            "imgUrl": "http://img.i-kitchen.cn/upload/0635ab2e-d96e-46b5-9d1f-d29587015603.jpg",
+            "type": "5",
+            "source": "http://wmall.wochu.cn/h5/groupbuy/groupList.html?",
+            "pos": 2,
+            "$$hashKey": "object:8062"
+          },
+          {
+            "imgUrl": "http://img.i-kitchen.cn/upload/f6eff771-b105-4bbd-93af-646ae46403f8.jpg",
+            "type": "12",
+            "source": "",
+            "pos": 3,
+            "$$hashKey": "object:8072"
+          },
+          {
+            "imgUrl": "http://img.i-kitchen.cn/upload/7290ea5d-5464-46f0-97e5-6da4dc0d5c95.jpg",
+            "type": "11",
+            "source": "",
+            "pos": 4,
+            "$$hashKey": "object:8082"
+          }
+        ],
+        "templateType": "8",
+        "$$hashKey": "object:8016",
+        "sortIndex": 1
+      }
+    ]
+  }
+}

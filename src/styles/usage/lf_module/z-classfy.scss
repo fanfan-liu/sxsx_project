@@ -1,0 +1,97 @@
+@import "../fragment/yo-search";
+.m-index {
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
+  // 头部
+  header {
+    height:.44rem;
+
+  }
+ .mint-searchbar-inner{
+   border-radius:.20rem;
+ }
+
+article {
+  @include flex(1);
+  @include flexbox();
+  width:100%;
+  border-top:0.01rem  solid green;
+  background: #f4f5f7;
+  }
+  #wrapper-nav {
+    width: .8rem;
+    height: 100%;
+    color: #666;
+    font-size: .15rem;
+    overflow: hidden;
+    background: #fff;
+    overflow-y: auto;
+   .wr_ul {
+      width: 100%;
+      height: 100%;
+      li{
+        width: 100%;
+        height: .47rem;
+        p{
+           width: 100%;
+          padding: .14rem 0;
+           text-align: center;
+           border-bottom: 1px solid #e6e6e6;
+       }
+      }
+
+  }
+}
+
+
+
+
+// 列表展示
+section {
+   background: #fff;
+  //  position: absolute;
+  //   width: 2.85rem;
+   @include flex(1);
+    margin-left: .1rem;
+    //float: right;
+    // right: 0;
+    // top:0;
+    // bottom:0;
+    overflow: hidden;
+   overflow-y: auto;
+   p{
+    //  width: 2.85rem;
+     line-height:.31rem;
+     font-size:14px;
+     font-weight:bold;
+     background: #f4f5f7;
+   }
+}
+
+ .mine{
+   height:2.74rem;
+
+  li{
+   width:.79rem;
+   height:1.1rem;
+   text-align: center;
+    margin:0 .07rem;
+    float:left;
+ }
+  img{
+   width:.79rem;
+   height:.79rem;
+ }
+ }
+ .class-item b{
+    width:.79rem;
+    line-height:.31rem;
+     font-size:14px;
+     font-weight:bold;
+  }
+  // footer {
+  //   height:.44rem;
+  //   background: yellow;
+  // }
+}

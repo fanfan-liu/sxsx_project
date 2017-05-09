@@ -1,0 +1,83 @@
+
+    .m-login{
+    height:100%;
+    width:100%;
+    background:#f8f8f8;
+    //header
+    .yo-header {
+        width:100%;
+        height:.44rem;
+        line-height:.44rem;
+        background-color: #fff;
+        border-bottom:1px solid #ccc;
+        color: #000;
+        background: #fff;
+        text-align:center;
+        font-size:.12rem;
+        color:#4f4f4f;
+        border-bottom:-.0.9rem solid #ccc;
+    .regret{
+        float:left;
+        position:absolute;
+        left:.12rem;
+        color:#b6b6b6;}
+    }
+      //section
+    .yo-list{
+        margin-top:.12rem;
+        .item{
+            width:100%;
+            height:.44rem;
+            background:#fff;
+            line-height:.44rem;
+            input{
+                height:.44rem;
+                width:100%;
+                border:none;
+                border-bottom:0.01rem solid #ccc;
+                padding:0 .1rem;
+              }
+                ::-webkit-input-placeholder{
+                    color:#575757;
+                    font-size:.15rem;
+                    margin-left: auto;}
+                ::-moz-placeholder{
+                    color:#575757;
+                    font-size:.15rem;
+                    margin-left:.27rem;
+                    margin-left: auto;}
+                :-moz-placeholder{
+                    color:#575757;
+                    font-size:.15rem;
+                    margin-left:.27rem;
+                    margin-left: auto;}
+        }
+    }
+    .yo-btn{
+        width:100%;
+        margin-top:.11rem;
+        text-align: center;
+    }
+    button{
+        width:3.3rem;
+        height:.33rem;
+        background:#ff7f00;
+        border:none;
+        outline:none;
+        color:#fff;
+        font-size:.2rem;}
+        .cys-huiyuan{
+            width:.87rem;
+            height:.28rem;
+            float:left;
+            margin-top:.15rem;
+            margin-left:.17rem;
+            border:0.02rem solid #ff7f00;
+            text-align: center;
+            line-height:.28rem;}
+        .cys-zhaohui{
+            float:right;
+            margin-top:.2rem;
+            margin-right:.26rem;
+        }
+    }

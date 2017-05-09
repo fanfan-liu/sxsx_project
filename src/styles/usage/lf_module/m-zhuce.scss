@@ -1,0 +1,72 @@
+.m-zhuce{
+    height:100%;
+    width:100%;
+    background:#f8f8f8;
+    .cys-first{
+       margin-top:.12rem;
+    }
+    .cys-test{
+        width:100%;
+        height:.44rem;
+        background:#fff;
+        line-height:.44rem;
+        .cys-input{
+            width:100%;
+            height:.44rem;
+            border:none;
+            color:#c9c9c9;
+            border-bottom:0.01rem solid #ccc;
+            padding:0 .1rem;
+          }
+        .cys-tpyz{
+            width:66%;
+            height:.44rem;
+            border:none;
+            border-bottom:0.01rem solid #ccc;
+            padding:0 .1rem;
+        }
+        .cys-yzm{
+            float:right;
+            width:1rem;
+            height:.28rem;
+            border:0.01rem solid #ccc;
+            text-align:center;
+            line-height:.28rem;
+            margin-top:.1rem;
+            margin-right:.15rem;}
+        .cys-shuru{
+            width:66%;
+            height:.44rem;
+            border:none;
+            border-bottom:0.01rem solid #ccc;
+              padding:0 .1rem;
+          }
+        .cys-huoqu{
+            float:right;
+            width:1.12rem;
+            height:.28rem;
+            border:0.01rem solid #ccc;
+            text-align:center;
+            line-height:.28rem;
+            margin-top:.1rem;
+            margin-right:.15rem;}
+    }
+    .cys-last{
+        margin-top:.12rem;
+
+      }
+    .cys-xieyi{
+        width:100%;
+        height:.44rem;
+        text-align: center;
+        line-height:.44rem;
+        font-size:.11rem;
+        color:#5c5c5c;
+        a{
+           text-decoration:underline;
+           color:#5c5c5c;
+
+        }
+        }
+
+}
