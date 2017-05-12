@@ -15,8 +15,10 @@
         <!--本周特惠、超值团购、充值好礼、邀请好友  -->
         <div class="lf_board1">
           <ul>
-            <li v-for="(item,index) in dataSource1">
+              <li v-for="(item,index) in dataSource1">
+              <router-link  to="/z_detail" >
               <img :src="item.imgUrl" alt="">
+              </router-link>
             </li>
           </ul>
         </div>

@@ -50,23 +50,23 @@ article {
 // 列表展示
 section {
    background: #fff;
-  //  position: absolute;
-  //   width: 2.85rem;
    @include flex(1);
     margin-left: .1rem;
-    //float: right;
-    // right: 0;
-    // top:0;
-    // bottom:0;
     overflow: hidden;
    overflow-y: auto;
    p{
-    //  width: 2.85rem;
      line-height:.31rem;
      font-size:14px;
      font-weight:bold;
      background: #f4f5f7;
    }
+   div{
+      width:.79rem;
+      line-height:.31rem;
+      font-size:.12rem;
+      font-weight:bold;
+      text-align: center;
+    }
 }
 
  .mine{
@@ -75,23 +75,38 @@ section {
   li{
    width:.79rem;
    height:1.1rem;
-   text-align: center;
+  
     margin:0 .07rem;
     float:left;
  }
-  img{
-   width:.79rem;
-   height:.79rem;
- }
- }
- .class-item b{
+    img{
     width:.79rem;
-    line-height:.31rem;
-     font-size:14px;
-     font-weight:bold;
+    height:.79rem;
+    }
+  
+   
   }
-  // footer {
-  //   height:.44rem;
-  //   background: yellow;
-  // }
-}
+
+
+
+// 第二页
+.elseList{
+  @include flexbox();
+  @include flex-wrap(wrap);
+  margin-top:.31rem;
+     li{
+    @include flexbox();
+     @include flex-direction(column);
+     width:.79rem;
+     height:1.1rem;
+      margin:0 .07rem;
+
+      img{
+        width:.79rem;
+        height:.79rem;
+      }
+   }
+
+      }
+ 
+  }

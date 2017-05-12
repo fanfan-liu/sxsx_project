@@ -15,6 +15,8 @@ import Zhaohui from '@/scripts/components/cys_zhaohui'
 import Denglu from '@/scripts/components/cys_denglu'
 import Seting from '@/scripts/components/cys_seting'
 import Touxiang from '@/scripts/components/cys_touxiang'
+
+import z_detail from '@/scripts/components/z_detail'
 // import Date from '@/scripts/components/cys_date'
 Vue.use(Router)
 
@@ -76,6 +78,10 @@ export default new Router({
     {
       path:'/seting',
       component:Seting
+    },
+    {
+      path:'/z_detail',
+      component: z_detail
     }
   ]
 })
