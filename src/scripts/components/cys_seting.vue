@@ -17,21 +17,19 @@
 				<p class="cys-p-left">客服电话</p>
 				<p class="cys-p-right">〉</p>
 			</div>
-			<div class="item cys-item-last">退出账户</div>
+			<div class="item cys-item-last"><router-link to="/index">退出账户</router-link></div>
 		</section>
 	</div>
 </template>
 <script>
 export default {
-methods: {
-	back: function () {
-		this.$router.go(-1)
+	methods: {
+		back: function () {
+			this.$router.go(-1)
+		}		
 	}
-}
 }
 </script>
 <style long="scss">
-.c_return{
-	color:#000 !important;
-}
+
 </style>

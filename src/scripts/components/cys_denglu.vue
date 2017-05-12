@@ -7,7 +7,7 @@
 			<div class="cys-tou-div">
 				<router-link to="/touxiang"><img class="cys-tou" src="../../assets/cys-tou.png"/></router-link>
 			</div>
-			<div class="cys-name">昵称</div>
+			<div class="cys-name">{{storeName}}</div>
 			<div class="cys-background">
 				<div class="cys-left">
 					<b class="cys-left-top">0</b>
@@ -91,3 +91,6 @@
 		</section >
 	</div>
 </template>
+<script>
+
+</script>
