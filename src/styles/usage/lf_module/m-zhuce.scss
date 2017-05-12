@@ -10,12 +10,23 @@
         height:.44rem;
         background:#fff;
         line-height:.44rem;
+        position: relative;
+        span{
+            position: absolute;
+            right: 0;
+            bottom:0;
+            height: .44rem;
+            line-height: .44rem;
+            color:#f60;
+            font-size: .16rem;
+            
+        }
         .cys-input{
             width:100%;
             height:.44rem;
             border:none;
             color:#c9c9c9;
-            border-bottom:0.01rem solid #ccc;
+            
             padding:0 .1rem;
           }
         .cys-tpyz{

@@ -14,10 +14,9 @@
         <router-link tag="li" to="/shopcar" class="yo-ico"  active-class="active">
           <span><i>&#xe62a;</i><b>购物车</b></span>
         </router-link>
-        <router-link tag="li" to="/user" class="yo-ico"  active-class="active">
+        <router-link tag="li" to="/login" class="yo-ico"  active-class="active">
           <span><i>&#xe6a3;</i><b>我的</b></span>
         </router-link>
-
       </ul>
     </nav>
   </div>

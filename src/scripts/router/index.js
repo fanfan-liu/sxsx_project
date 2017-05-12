@@ -4,7 +4,7 @@ import index from '@/scripts/components/index.vue'
 import fenlei from '@/scripts/components/z_classfy.vue'
 import shopcar from '@/scripts/components/shopcar.vue'
 import indexpage from '@/scripts/components/Indexpage.vue'
-import user from '@/scripts/components/user.vue'
+//import user from '@/scripts/components/user.vue'
 import search from '@/scripts/components/search.vue'
 import searchList from '@/scripts/components/lf_search_list.vue'
 import showgood from '@/scripts/components/showgood.vue'
@@ -15,9 +15,7 @@ import Zhaohui from '@/scripts/components/cys_zhaohui'
 import Denglu from '@/scripts/components/cys_denglu'
 import Seting from '@/scripts/components/cys_seting'
 import Touxiang from '@/scripts/components/cys_touxiang'
-// import Date from '@/scripts/components/cys_date'
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -79,3 +77,5 @@ export default new Router({
     }
   ]
 })
+
+
